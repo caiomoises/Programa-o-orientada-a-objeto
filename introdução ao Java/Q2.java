@@ -8,14 +8,26 @@ public class Q2 {
         Scanner input = new Scanner(System.in);
         
         for(index=1; index <= 3; index++){
-            System.out.println("Digite a nota "+index+":");
-            n = input.nextFloat();    
+            System.out.print("Digite a nota "+index+": ");
+            n = input.nextFloat();
             soma += n;
         }
+        
         input.close();
 
         float media = soma/3;
-        
-        System.out.println("A média das notas é "+media);
+
+        if (media >= 7){
+            System.out.print("APROVADO\n");
+            System.out.print("A média das notas é "+media);
+        }
+        else if(media < 7 && media >= 3.5){
+            System.out.print("Você está na quarta prova\n");
+            System.out.print("A média das notas é "+media);
+        }
+        else if(media < 3.5){
+            System.out.print("REPROVADO\n");
+            System.out.print("A média das notas é "+media);
+        }
     }
 }
