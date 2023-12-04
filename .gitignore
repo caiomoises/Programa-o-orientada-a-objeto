@@ -1,0 +1,63 @@
+# Arquivos temporários
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.tmp.*
+*.log.*
+*.swp
+*~
+
+# Diretórios
+target/
+bin/
+out/
+build/
+dist/
+
+# Arquivos de configuração
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Arquivos de dependências (gerados pelo Maven, Gradle, etc.)
+lib/
+libs/
+*.jar
+
+# Arquivos de configuração específicos de IDEs
+*.project
+*.classpath
+
+# Cache e arquivos gerados pelo sistema operacional
+ehthumbs.db
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos de saída
+*.log
+*.out
+
+# Arquivos de configuração do Eclipse
+.settings/
+
+# Arquivos de configuração do NetBeans
+nb-configuration.xml
+
+# Arquivos de configuração do JDeveloper
+.jdeveloper/
+.metadata/
+
+# Arquivos de configuração do BlueJ
+.bluej/
+
+# Arquivos de configuração do JEdit
+.jedit/
+
+# Arquivos de configuração do JBuilder
+.classpath
+.project
+.team/

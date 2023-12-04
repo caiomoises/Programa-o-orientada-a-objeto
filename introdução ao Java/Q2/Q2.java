@@ -15,9 +15,9 @@ public class Q2 {
         }
         
         input.close();
-
+        
         float media = soma/3;
-
+        
         if (media >= 7){
             System.out.print("APROVADO\n");
             System.out.print("A média das notas é "+media);
