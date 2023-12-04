@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Dia {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int dia, mes, ano;
+        int dia, mes, ano, qtdias=0;
         String saidaFormatada = "";
 
         System.out.print("Dia: ");
@@ -44,6 +44,25 @@ public class Dia {
         saidaFormatada += (" de "+ ano);
 
         System.out.print(saidaFormatada);
+
+        switch (mes) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                qtdias = 31;
+                break;
+            case 2:
+                qtdias = 28;
+                break;        
+            default:
+                qtdias = 30;
+                break;
+        }
+        System.out.printf("\nQuantidade de dias do mês = %d", qtdias);
 
         input.close();
     }
