@@ -14,7 +14,6 @@ public class Q2 {
             soma += n;
         }
         
-        input.close();
         
         float media = soma/3;
         
@@ -30,5 +29,7 @@ public class Q2 {
             System.out.print("REPROVADO\n");
             System.out.print("A média das notas é "+media);
         }
+        
+        input.close();
     }
 }
