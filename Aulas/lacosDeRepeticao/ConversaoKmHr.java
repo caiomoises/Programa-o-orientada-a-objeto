@@ -1,8 +1,8 @@
-package Aulas.Quatro_de_dez;
+package Aulas.lacosDeRepeticao;
 
 import java.text.DecimalFormat;
 
-public class Conversao_km_hr {
+public class ConversaoKmHr {
     public static void main(String[] args) {
         double kmph = 0.0, ms, mh, ps;
 

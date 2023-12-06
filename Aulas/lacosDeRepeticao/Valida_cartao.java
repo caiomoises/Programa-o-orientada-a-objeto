@@ -1,4 +1,4 @@
-package Aulas.Quatro_de_dez;
+package Aulas.lacosDeRepeticao;
 
 import java.util.Scanner;
 import java.util.Calendar;
