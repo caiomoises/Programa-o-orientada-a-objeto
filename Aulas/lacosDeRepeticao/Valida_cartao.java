@@ -32,6 +32,7 @@ public class Valida_cartao {
 
         }while(cartaoInvalido);
 
+        System.out.println("Nome: " + nome + "\nnúmero: " + numero + "\nCódigo: " + codigo);
         System.out.println("Cartão validado. prosiga com a compra!");
 
         // System.out.println("Ano atual: " + anoAtual);
