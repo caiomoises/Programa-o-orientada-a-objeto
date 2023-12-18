@@ -1,5 +1,3 @@
-package Aulas.classes;
-
 public class Data {
     int dia;
     int mes;

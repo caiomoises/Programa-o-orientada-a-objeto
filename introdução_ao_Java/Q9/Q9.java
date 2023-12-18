@@ -1,5 +1,3 @@
-package Q9;
-
 import java.util.Scanner;
 
 public class Q9 {

@@ -1,5 +1,3 @@
-package Q11;
-
 import java.util.Scanner;
 
 public class Q11 {

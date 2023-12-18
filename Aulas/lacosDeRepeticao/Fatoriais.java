@@ -1,5 +1,3 @@
-package Aulas.lacosDeRepeticao;
-
 import java.util.Scanner;
 
 public class Fatoriais {

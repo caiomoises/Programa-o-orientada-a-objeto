@@ -1,5 +1,3 @@
-package Aulas.classes;
-
 public class Triangulo {
     double l1;
     double l2;

@@ -1,5 +1,3 @@
-package Aulas.lacosDeRepeticao;
-
 import java.text.DecimalFormat;
 
 public class ConversaoKmHr {

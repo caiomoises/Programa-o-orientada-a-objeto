@@ -1,5 +1,3 @@
-package Q6;
-
 import java.util.Scanner;
 
 public class Q6 {

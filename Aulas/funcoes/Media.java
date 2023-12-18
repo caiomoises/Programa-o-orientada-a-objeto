@@ -1,5 +1,3 @@
-package Aulas.funcoes;
-
 import java.util.Scanner;
 
 public class Media {
