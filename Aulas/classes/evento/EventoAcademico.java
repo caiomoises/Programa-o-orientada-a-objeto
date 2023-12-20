@@ -1,7 +1,7 @@
 public class EventoAcademico {
-    String nomeDoEvento;
-    String localDoEvento;
-    int numeroDeParticipantes;
+    private String nomeDoEvento;
+    private String localDoEvento;
+    private int numeroDeParticipantes;
 
     public EventoAcademico(String nomeDoEvento, String localDoEvento, int numeroDeParticipantes) {
         this.nomeDoEvento = nomeDoEvento;
@@ -9,7 +9,7 @@ public class EventoAcademico {
         this.numeroDeParticipantes = numeroDeParticipantes;
     }
 
-    void mostraEvento(){
+    public void mostraEvento(){
         System.out.println("Nome do evento: " + nomeDoEvento);
         System.out.println("Local do evento: " + localDoEvento);
         System.out.println("Número de participantes: " + numeroDeParticipantes);
