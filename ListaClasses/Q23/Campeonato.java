@@ -1,5 +1,3 @@
-package Q23;
-
 import java.util.Random;
 
 public class Campeonato {

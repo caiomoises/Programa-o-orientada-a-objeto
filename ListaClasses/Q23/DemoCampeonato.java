@@ -1,5 +1,3 @@
-package Q23;
-
 public class DemoCampeonato {
     
     public static void main(String[] args) {
