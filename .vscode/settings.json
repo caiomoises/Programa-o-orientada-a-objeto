@@ -17,13 +17,16 @@
         "herança/concessionaria",
         "herança/Universidade",
         "herança/Departamento",
+        "empresa",
         "controle",
+        "colecoes/conjunto",
         "ListaClasses/Q28",
         "ListaClasses/Q27",
         "ListaClasses/Q26",
         "ListaClasses/Q25",
         "ListaClasses/Q24",
         "ListaClasses/Q23",
+        "ListaClasses",
         "Aulas/lacosDeRepeticao",
         "Aulas/funcoes",
         "Aulas/29 de nov",
@@ -32,6 +35,6 @@
         "Arrays",
         "ArrayList/banco",
         "ArrayList/Q33",
-        "empresa"
+        "colecoes/mapa"
     ]
 }

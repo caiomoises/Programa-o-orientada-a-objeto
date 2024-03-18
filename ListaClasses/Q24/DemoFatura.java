@@ -1,6 +1,6 @@
 public class DemoFatura {
     public static void main(String[] args) {
-        Fatura F1 = new Fatura(1, "UVA", 2, 5.5);
+        Fatura F1 = new Fatura(1, "MACA", 3, 2.00);
         Fatura F2 = new Fatura(2, "PERA", 5, 3.00);
 
         System.out.println(F1.quant + " " + 
