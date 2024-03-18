@@ -19,6 +19,7 @@
         "herança/Departamento",
         "empresa",
         "controle",
+        "colecoes/mapa",
         "colecoes/conjunto",
         "ListaClasses/Q28",
         "ListaClasses/Q27",
@@ -35,6 +36,6 @@
         "Arrays",
         "ArrayList/banco",
         "ArrayList/Q33",
-        "colecoes/mapa"
+        "colecoes/lista"
     ]
 }

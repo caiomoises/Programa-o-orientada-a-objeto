@@ -11,6 +11,7 @@ public class DemoMapa {
         System.out.println("Palavras encontradas: " + palavras.length);
 
         for (String palavra : palavras){
+            palavra.concat(entrada);
             aux = palavra.toLowerCase();
             if (contaPalavras.containsKey(aux)) {
                 
