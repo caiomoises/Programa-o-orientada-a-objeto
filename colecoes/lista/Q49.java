@@ -7,23 +7,23 @@
  * parte da estratégia de solução desta questão.
  */
 
-import java.util.TreeMap;
+ import java.util.TreeMap;
 
-public class Q49 {
-    public static void main(String[] args) {
-        int valor;
-        String[] palavras = "HELLO THERE".split(" ");
-        TreeMap<String, Integer> contaPalavras = new TreeMap<>();
-        for (String palavra : palavras){
-            if (contaPalavras.containsKey(palavra)) {
-                valor = contaPalavras.get(palavra);
-                contaPalavras.put(palavra, valor + 1);
-            } else {
-                contaPalavras.put(palavra, 1);
-            }
-        }
-        for (String letra : contaPalavras.keySet()) {
-            System.out.println(letra + ": " + contaPalavras.get(letra));
-        }
-    }
-}
+ public class Q49 {
+     public static void main(String[] args) {
+         int valor;
+         String[] palavra = "HELLO THERE".split("");
+         TreeMap<String, Integer> contaPalavras = new TreeMap<>();
+         for (String letra : palavra){
+             if (contaPalavras.containsKey(letra)) {
+                 valor = contaPalavras.get(letra);
+                 contaPalavras.put(letra, valor + 1);
+             } else {
+                 contaPalavras.put(letra, 1);
+             }
+         } 
+         for (String letra : contaPalavras.keySet()) {
+             System.out.println(letra + ": " + contaPalavras.get(letra));
+         }
+     }
+ }
