@@ -12,18 +12,19 @@
  public class Q49 {
      public static void main(String[] args) {
          int valor;
-         String[] palavra = "HELLO THERE".split("");
-         TreeMap<String, Integer> contaPalavras = new TreeMap<>();
-         for (String letra : palavra){
-             if (contaPalavras.containsKey(letra)) {
-                 valor = contaPalavras.get(letra);
-                 contaPalavras.put(letra, valor + 1);
-             } else {
-                 contaPalavras.put(letra, 1);
-             }
-         } 
-         for (String letra : contaPalavras.keySet()) {
-             System.out.println(letra + ": " + contaPalavras.get(letra));
-         }
-     }
- }
+         String palavra = "HELLO THERE";
+         TreeMap<Character, Integer> contaPalavras = new TreeMap<>();
+         for (int i = 0; i<palavra.length(); i++){
+            if (palavra.charAt(i) != ' ' && contaPalavras.containsKey(palavra.charAt(i))) {
+                valor = contaPalavras.get(palavra.charAt(i));
+                contaPalavras.put(palavra.charAt(i), valor + 1);
+            }
+            else if (palavra.charAt(i) != ' ' && contaPalavras.containsKey(palavra.charAt(i))==false) {
+                contaPalavras.put(palavra.charAt(i), 1);
+            } 
+        }
+        for (Character letra : contaPalavras.keySet()) {
+            System.out.println(letra + ": " + contaPalavras.get(letra));
+        }
+    }
+}
