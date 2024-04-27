@@ -1,11 +1,11 @@
 
-public class Fatura {
+public class FaturaF {
     public int id;
     public String descricao;
     public int quant;
     public double preco;
 
-    public Fatura(int id, String descricao, int quant, double preco) {
+    public FaturaF(int id, String descricao, int quant, double preco) {
         this.id = id;
         this.descricao = descricao;
         this.quant = quant;

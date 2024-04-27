@@ -15,16 +15,15 @@ public class EntradaEmAgenda {
 
     @Override
     public String toString() {
-        return "EntradaEmAgenda hora=" + hora + ", dia=" + dia + ", mes=" + mes + ", ano=" + ano + ", assunto="
-                + assunto;
+        return "EntradaEmAgenda [hora=" + hora + ", dia=" + dia + ", mes=" + mes + ", ano=" + ano + ", assunto="
+                + assunto + "]";
     }
 
-    public boolean eNoDia(int dia, int mes, int ano) {
-        if (this.dia == dia && this.mes == mes && this.ano == ano){
+    public boolean ehNoDia(int dia, int mes, int ano) {
+        if (dia == this.dia && mes == this.mes && ano == this.ano) {
             return true;
         }
+
         return false;
     }
-
-    
 }
