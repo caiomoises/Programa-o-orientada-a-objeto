@@ -20,6 +20,7 @@
         "empresa",
         "controle",
         "colecoes/mapa",
+        "colecoes/lista",
         "colecoes/conjunto",
         "ListaClasses/Q28",
         "ListaClasses/Q27",
@@ -35,7 +36,10 @@
         "Arrays/Pratica1",
         "Arrays",
         "ArrayList/banco",
+        "ArrayList/Q36",
+        "ArrayList/Q35",
+        "ArrayList/Q34",
         "ArrayList/Q33",
-        "colecoes/lista"
+        "ArrayList/Q37"
     ]
 }
