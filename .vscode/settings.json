@@ -22,6 +22,7 @@
         "colecoes/mapa",
         "colecoes/lista",
         "colecoes/conjunto",
+        "ReusoDeClasse/Q42",
         "ReusoDeClasse/Q41",
         "ReusoDeClasse/Q40",
         "ReusoDeClasse/Q39",
@@ -33,6 +34,7 @@
         "ListaClasses/Q24",
         "ListaClasses/Q23",
         "ListaClasses",
+        "ClassesAbstratas/Q44",
         "Aulas/lacosDeRepeticao",
         "Aulas/funcoes",
         "Aulas/29 de nov",
@@ -45,6 +47,6 @@
         "ArrayList/Q35",
         "ArrayList/Q34",
         "ArrayList/Q33",
-        "ReusoDeClasse/Q42"
+        "ClassesAbstratas/Q45"
     ]
 }
