@@ -1,4 +1,4 @@
-public class Demo {
+public class DemoArray {
     public static void main(String[] args) {
         float[][] array1 = {{1.5f, 3.7f}, {4.8f, 7.2f}};
 

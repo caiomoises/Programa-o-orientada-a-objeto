@@ -6,4 +6,9 @@ public abstract class Empregado implements Pagavel{
         this.nome = nome;
         this.CTPS = CTPS;
     }
+
+    @Override
+    public String toString() {
+        return nome + CTPS;
+    }
 }
