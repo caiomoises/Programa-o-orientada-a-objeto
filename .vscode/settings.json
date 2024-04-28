@@ -34,6 +34,7 @@
         "ListaClasses/Q24",
         "ListaClasses/Q23",
         "ListaClasses",
+        "ClassesAbstratas/Q45",
         "ClassesAbstratas/Q44",
         "Aulas/lacosDeRepeticao",
         "Aulas/funcoes",
@@ -47,6 +48,6 @@
         "ArrayList/Q35",
         "ArrayList/Q34",
         "ArrayList/Q33",
-        "ClassesAbstratas/Q45"
+        "ClassesAbstratas/Q46"
     ]
 }
