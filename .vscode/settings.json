@@ -14,11 +14,13 @@
         "introdução_ao_Java/Q11",
         "introdução_ao_Java/Q10",
         "introdução_ao_Java/Q1",
+        "intro",
         "herança/concessionaria",
         "herança/Universidade",
         "herança/Departamento",
         "empresa",
         "controle",
+        "colecoesGenericas/Q50",
         "colecoes/mapa",
         "colecoes/lista",
         "colecoes/conjunto",
@@ -49,6 +51,6 @@
         "ArrayList/Q35",
         "ArrayList/Q34",
         "ArrayList/Q33",
-        "colecoesGenericas/Q50"
+        "mapa"
     ]
 }
